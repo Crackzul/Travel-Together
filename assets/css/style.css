@@ -65,6 +65,29 @@ li {
 .nav {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 5em;
+}
+
+.our_agency {
+  color: black;
+}
+
+.container {
+  border: solid 1px #e7816b;
+  background-color: #e7816b;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  border-radius: 15px;
+  display: flex;
+}
+
+.learn_more_g {
+  width: 50%;
+  padding: 5rem;
+}
+
+.img_learn_more {
+  width: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
