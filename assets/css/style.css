@@ -31,6 +31,13 @@ a {
   box-sizing: border-box;
 }
 
+.service__card h3 {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
 .btn {
   max-width: 20rem;
   border: solid 2px, black;
@@ -141,6 +148,7 @@ li {
 
 .card_1 {
   background-image: url(/assets/img/homme-assis-batiment.jpg);
+  border-radius: 15px;
   width: 40vw;
   height: 32vw;
   background-size: cover;
@@ -152,6 +160,7 @@ li {
 
 .card_2 {
   background-image: url(/assets/img/passport.jpg);
+  border-radius: 15px;
   width: 35.5vw;
   height: 33vh;
   background-size: cover;
@@ -163,6 +172,7 @@ li {
 
 .card_3 {
   background-image: url(/assets/img/montgolfiere.jpg);
+  border-radius: 15px;
   width: 35.5vw;
   height: 33vh;
   background-size: cover;
@@ -170,6 +180,18 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.service_card h3 {
+  font-size: 4rem;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.service_card p {
+  font-size: 2rem;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

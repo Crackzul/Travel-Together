@@ -60,6 +60,7 @@
 
 .card_1 {
     background-image: url(/assets/img/homme-assis-batiment.jpg);
+    border-radius: 15px;
     width: 40vw;
     height: 32vw;
     background-size: cover;
@@ -71,6 +72,7 @@
 }
 .card_2 {
     background-image: url(/assets/img/passport.jpg);
+    border-radius: 15px;
     width: 35.5vw;
     height: 33vh;
     background-size: cover;
@@ -82,6 +84,7 @@
 
 .card_3 {
     background-image: url(/assets/img/montgolfiere.jpg);
+    border-radius: 15px;
     width: 35.5vw;
     height: 33vh;
     background-size: cover;
@@ -92,4 +95,14 @@
 
 }
       
-   
+.service_card h3 {
+    font-size: 4rem;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.service_card p {
+    font-size: 2rem;
+    color: white;
+}
