@@ -60,9 +60,27 @@
 
 .service_card {
     display: flex;
-    
-&.card_1 {
+}
+
+.card_1 {
     background-image: url(/assets/img/homme-assis-batiment.jpg);
+    width: 40%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    }
+.card_2 {
+    background-image: url(/assets/img/passport.jpg);
     width: 10vw;
+    background-size: cover;
+    background-position: center;
+    }
+.card_3 {
+    background-image: url(/assets/img/montgolfiere.jpg);
+    width: 10vw;
+    background-size: cover;
+    background-position: center;
+
 }
-}
+      
+   
