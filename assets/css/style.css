@@ -95,6 +95,7 @@ li {
   align-items: center;
   justify-content: space-between;
   height: 50vh;
+  margin-top: 5vh;
 }
 .learn_more img {
   width: 65%;
