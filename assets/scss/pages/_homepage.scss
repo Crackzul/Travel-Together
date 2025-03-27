@@ -1,11 +1,26 @@
-.learn_more_g {
-    width: 50%;
+.learn_more {
+    width:80vw;
     padding: 5rem;
-}
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-.learn_more_d {
-}
 
-.img_learn_more {
-    width: 10%;
+    img {
+        width: 40%;
+        
+    }
+
+    .learn_more_text {
+        padding-left:1rem;
+        padding-right:1rem;
+        text-align: left;
+        width:55%;
+        vertical-align: middle;
+        color: white
+    }
+
+    
+
+
 }

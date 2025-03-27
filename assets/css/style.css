@@ -36,10 +36,12 @@ a {
   border-radius: 12px;
   text-decoration: none;
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   font-family: "Lato";
-  font-size: 3rem;
+  font-size: 2rem;
   color: black;
+  background-color: white;
+  margin-top: 5%;
 }
 
 li a {
@@ -56,16 +58,17 @@ ul {
 
 li {
   text-decoration: none;
+  margin-right: 3rem;
 }
 
 .logo {
   width: 10%;
+  margin-right: 39vw;
 }
 
 .nav {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 5em;
+  justify-content: center;
 }
 
 .our_agency {
@@ -79,15 +82,26 @@ li {
   margin-right: 20rem;
   border-radius: 15px;
   display: flex;
+  max-width: 80vw;
 }
 
-.learn_more_g {
-  width: 50%;
+.learn_more {
+  width: 80vw;
   padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
-.img_learn_more {
-  width: 10%;
+.learn_more img {
+  width: 40%;
+}
+.learn_more .learn_more_text {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+  width: 55%;
+  vertical-align: middle;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
