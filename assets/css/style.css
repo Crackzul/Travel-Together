@@ -133,13 +133,19 @@ li {
   text-align: left;
 }
 
-.contour_card img {
-  width: 10%;
+.services-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.services_card_first {
+.service_card {
+  display: flex;
+}
+.service_card.card_1 {
   background-image: url(/assets/img/homme-assis-batiment.jpg);
-  width: 50rem;
+  width: 10vw;
 }
 
 /*# sourceMappingURL=style.css.map */
