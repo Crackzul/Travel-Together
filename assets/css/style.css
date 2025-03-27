@@ -121,4 +121,25 @@ li {
   overflow: hidden;
 }
 
+.red {
+  color: #da6e56;
+}
+
+.service {
+  margin-left: 11%;
+}
+
+.service h2 {
+  text-align: left;
+}
+
+.contour_card img {
+  width: 10%;
+}
+
+.services_card_first {
+  background-image: url(/assets/img/homme-assis-batiment.jpg);
+  width: 50rem;
+}
+
 /*# sourceMappingURL=style.css.map */
