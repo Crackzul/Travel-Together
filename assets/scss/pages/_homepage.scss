@@ -1,18 +1,18 @@
 .learn_more {
-    width:80vw;
-    padding: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    height: 50vh;
+
     img {
-        width: 40%;
+        width: 65%;
+        
         
     }
 
     .learn_more_text {
-        padding-left:1rem;
-        padding-right:1rem;
+        padding-left:5rem;
+        padding-right:5rem;
         text-align: left;
         width:55%;
         vertical-align: middle;
@@ -22,7 +22,15 @@
         justify-content: center;
     }
 
-    
 
+}
 
+.img_learn_more {
+    transform: translateY(5%);
+}
+
+.cadreimage {
+     height: 43em;
+    overflow: hidden;
+  
 }

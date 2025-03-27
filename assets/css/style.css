@@ -87,23 +87,21 @@ li {
   margin-left: 20rem;
   margin-right: 20rem;
   border-radius: 15px;
-  display: flex;
   max-width: 80vw;
 }
 
 .learn_more {
-  width: 80vw;
-  padding: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 50vh;
 }
 .learn_more img {
-  width: 40%;
+  width: 65%;
 }
 .learn_more .learn_more_text {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   text-align: left;
   width: 55%;
   vertical-align: middle;
@@ -111,6 +109,15 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.img_learn_more {
+  transform: translateY(5%);
+}
+
+.cadreimage {
+  height: 43em;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
