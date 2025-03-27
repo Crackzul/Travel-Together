@@ -135,32 +135,41 @@ li {
 
 .services_container {
   display: flex;
+  align-items: flex-end;
   gap: 2rem;
-  justify-content: center;
 }
 
 .card_1 {
   background-image: url(/assets/img/homme-assis-batiment.jpg);
   width: 40vw;
-  height: 30vw;
+  height: 32vw;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card_2 {
   background-image: url(/assets/img/passport.jpg);
-  width: 40vw;
-  height: 31vh;
+  width: 35.5vw;
+  height: 33vh;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card_3 {
   background-image: url(/assets/img/montgolfiere.jpg);
-  width: 40vw;
-  height: 31vh;
+  width: 35.5vw;
+  height: 33vh;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
