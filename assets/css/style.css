@@ -32,6 +32,7 @@ a {
 }
 
 .btn {
+  max-width: 20rem;
   border: solid 2px, black;
   border-radius: 12px;
   text-decoration: none;
@@ -42,6 +43,11 @@ a {
   color: black;
   background-color: white;
   margin-top: 5%;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 14px 13px 7px 0px black;
+}
+.btn:hover {
+  box-shadow: 0 6px 12px black;
 }
 
 li a {
@@ -102,6 +108,9 @@ li {
   width: 55%;
   vertical-align: middle;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

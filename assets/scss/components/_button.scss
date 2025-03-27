@@ -1,5 +1,6 @@
 
 .btn {
+    max-width: 20rem;
     border: solid 2px, black;
     border-radius: 12px;
     text-decoration: none;
@@ -10,4 +11,10 @@
     color: black;
     background-color: white;
     margin-top:5%;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 14px 13px 7px 0px black;
+
+  &:hover {
+    box-shadow: 0 6px 12px black
+  }
 }

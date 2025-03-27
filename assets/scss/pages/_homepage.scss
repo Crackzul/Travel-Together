@@ -4,8 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
+    
     img {
         width: 40%;
         
@@ -17,7 +16,10 @@
         text-align: left;
         width:55%;
         vertical-align: middle;
-        color: white
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     
