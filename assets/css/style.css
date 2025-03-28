@@ -143,7 +143,7 @@ li {
 
 .services_container {
   display: flex;
-  align-items: flex-end;
+  gap: 2rem;
 }
 .services_container .card_1 {
   border-radius: 15px;
@@ -167,30 +167,61 @@ li {
 .services_container .card_1::after {
   content: "";
   position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.43);
+  z-index: 2;
 }
-
-.card_2 {
+.services_container .card_2 {
+  border-radius: 15px;
+  width: 35.5vw;
+  height: 33vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services_container .card_2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   background-image: url(/assets/img/passport.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+.services_container .card_2::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.43);
+  z-index: 2;
+}
+.services_container .card_3 {
   border-radius: 15px;
   width: 35.5vw;
   height: 33vh;
-  background-size: cover;
-  background-position: center;
+  overflow: hidden;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.card_3 {
+.services_container .card_3::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   background-image: url(/assets/img/montgolfiere.jpg);
-  border-radius: 15px;
-  width: 35.5vw;
-  height: 33vh;
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: 1;
+}
+.services_container .card_3::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.43);
+  z-index: 2;
 }
 
 .service_content {
