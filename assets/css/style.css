@@ -206,7 +206,7 @@ li {
 .services_container .card_3 {
   border-radius: 15px;
   width: 35.5vw;
-  height: height 50%;
+  height: 50%;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -255,6 +255,10 @@ li {
   font-size: 2rem;
   color: white;
   text-decoration: none;
+}
+
+.features .h2 {
+  text-align: right;
 }
 
 /*# sourceMappingURL=style.css.map */
