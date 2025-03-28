@@ -49,50 +49,85 @@
 
 .service h2 {
     text-align: left;
+    margin-top: 5rem;
 }
+
+
 
 .services_container {
     display: flex;
     align-items: flex-end;
-    gap: 2rem;
-  }
+    
+    .card_1 {
+        border-radius: 15px;
+        width: 40vw;
+        height: 32vw;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        &::before {
+        content:"";
+        position: absolute;
+        inset: 0;
+        background-image: url(/assets/img/homme-assis-batiment.jpg);
+        background-size: cover;
+        background-position: center;
+        z-index: 1;
 
-.card_1 {
-    background-image: url(/assets/img/homme-assis-batiment.jpg);
-    border-radius: 15px;
-    width: 40vw;
-    height: 32vw;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        }
 
+        &::after {
+            content: "";
+            position: absolute;
+        
+    
+        }
+    }
+    
 }
-.card_2 {
-    background-image: url(/assets/img/passport.jpg);
-    border-radius: 15px;
-    width: 35.5vw;
-    height: 33vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.card_3 {
-    background-image: url(/assets/img/montgolfiere.jpg);
-    border-radius: 15px;
-    width: 35.5vw;
-    height: 33vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .card_2 {
+        background-image: url(/assets/img/passport.jpg);
+        border-radius: 15px;
+        width: 35.5vw;
+        height: 33vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .card_3 {
+        background-image: url(/assets/img/montgolfiere.jpg);
+        border-radius: 15px;
+        width: 35.5vw;
+        height: 33vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+ 
+
+
+
+
+
+
+.service_content {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 1rem;
+ z-index: 3;
+ position: relative;
+ 
 }
       
 .service_card h3 {
@@ -102,7 +137,15 @@
     margin-bottom: 0.5rem;
 }
 
-.service_card p {
+.service_card a {
     font-size: 2rem;
     color: white;
 }
+
+.lien {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    
+}
+
