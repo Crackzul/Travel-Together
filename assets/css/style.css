@@ -261,4 +261,10 @@ li {
   text-align: right;
 }
 
+.feature_icon {
+  width: 10rem;
+  height: auto;
+  color: #da6e56;
+}
+
 /*# sourceMappingURL=style.css.map */
