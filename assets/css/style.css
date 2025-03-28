@@ -144,11 +144,12 @@ li {
 .services_container {
   display: flex;
   gap: 2rem;
+  width: 120vw;
 }
 .services_container .card_1 {
   border-radius: 15px;
   width: 40vw;
-  height: 32vw;
+  height: 32.6vw;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -171,10 +172,15 @@ li {
   background-color: rgba(0, 0, 0, 0.43);
   z-index: 2;
 }
+.services_container .colonne_droite {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 .services_container .card_2 {
   border-radius: 15px;
   width: 35.5vw;
-  height: 33vh;
+  height: 50%;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -200,7 +206,7 @@ li {
 .services_container .card_3 {
   border-radius: 15px;
   width: 35.5vw;
-  height: 33vh;
+  height: height 50%;
   overflow: hidden;
   position: relative;
   display: flex;
