@@ -201,35 +201,11 @@ color: #da6e56;
 
 }
 
-.feature_contain {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-}
-
-.back_features {
-    background-image: url(/assets/img/wave.svg);
-    height: 40vh;
-    background-position: center;
-
-}
-
-.features_title {
-    text-align: right;
-    margin-top: 10vh;
-    max-width: 90%;
-}
-
-.feature_text {
-    padding-right: 20%;
-    padding-left: 20%;
-}
-
 #features {
     background-image: url(../img/wave.svg);
     background-size: cover;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
+    padding-top: 8rem;
 }
 
 #features h2 {
@@ -239,7 +215,6 @@ color: #da6e56;
 .features-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 4rem;
 }
 
