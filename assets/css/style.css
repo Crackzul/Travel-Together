@@ -44,6 +44,13 @@ a {
   border-radius: 15px;
   margin-left: 11rem;
   margin-right: 11rem;
+  color: white;
+}
+.banner h3 {
+  font-size: 3rem;
+}
+.banner .btn {
+  font-size: 2rem;
 }
 
 .container {
@@ -59,7 +66,7 @@ a {
   border-radius: 12px;
   text-decoration: none;
   display: inline-block;
-  padding: 1rem 3rem;
+  padding: 1rem 1rem;
   font-family: "Lato";
   font-size: 2rem;
   color: black;
@@ -295,6 +302,37 @@ li {
 }
 .feature-item p {
   padding: 2rem;
+}
+
+.icones {
+  width: 2%;
+}
+
+.last_section {
+  margin-bottom: -5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.last_banner {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.menu_bottom {
+  color: white;
+}
+
+footer {
+  padding-top: 10rem;
+  background-color: #1d1d1f;
+  color: white;
+}
+
+.bottom-menu {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

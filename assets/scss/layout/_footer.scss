@@ -1,0 +1,11 @@
+@use "../abstracts/variables";
+
+footer {
+    padding-top: 10rem;
+    background-color: variables.$color-secondary;
+    color: white;
+}
+
+.bottom-menu {
+    display: flex;
+}
