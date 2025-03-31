@@ -2,39 +2,33 @@
 
 .learn_more {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 50vh;
     margin-top: 5vh;
 
     img {
-        width: 65%;
+        width: 40%;
         
         
     }
 
     .learn_more_text {
         padding-left:5rem;
-        padding-right:5rem;
-        text-align: left;
         width:55%;
-        vertical-align: middle;
         color: white;
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
 
 
 }
 
 .img_learn_more {
-    transform: translateY(5%);
+    transform: translateY(15vh);
 }
 
 .cadreimage {
-    height: 100%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
   
 }
 
@@ -171,7 +165,6 @@ max-width: 78%;
  
       
 .service_card h3 {
-    font-size: 4rem;
     color: white;
     font-weight: 400;
     margin-bottom: 0.5rem;
@@ -204,7 +197,7 @@ color: #da6e56;
 #features {
     background-image: url(../img/wave.svg);
     background-size: cover;
-    padding-bottom: 5rem;
+    padding-bottom: 15rem;
     padding-top: 8rem;
 }
 
@@ -221,4 +214,14 @@ color: #da6e56;
 .feature-item {
     width: 30%;
     text-align: center;
+
+    .feature_icon {
+        width: 20%;
+    }
+
+    p {
+        padding: 2rem;
+ }
 }
+
+
