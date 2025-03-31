@@ -1,8 +1,15 @@
-.container {
+.banner {
     border: solid 1px #e7816b;
     background-color: #e7816b;
     margin-left: 20rem;
     margin-right: 20rem;
     border-radius: 15px;
     max-width: 80vw;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
